@@ -1,35 +1,35 @@
 ```mermaid
 flowchart TD
-    n0["CUSTOMER ONBOARDING"]
-    n1["EXPECTED VALUE"]
-    n2["ACTUAL VALUE"]
-    n3["HEALTH"]
-    n4["RISK DETECTION"]
-    n5["DIAGNOSIS"]
-    n6["INTERVENTION"]
-    n7["CUSTOMER RESPONSE"]
-    n8["RECOVERY  /  EXPANSION  /  CHURN"]
-    n9["LEARNING"]
-    n0 --> n1
-    n1 --> n2
-    n2 --> n3
-    n3 --> n4
-    n4 --> n5
-    n5 --> n6
-    n6 --> n7
-    n7 --> n8
-    n8 --> n9
-    n0 -->|learning| n0
+ n0["CUSTOMER ONBOARDING"]
+ n1["EXPECTED VALUE"]
+ n2["ACTUAL VALUE"]
+ n3["HEALTH"]
+ n4["RISK DETECTION"]
+ n5["DIAGNOSIS"]
+ n6["INTERVENTION"]
+ n7["CUSTOMER RESPONSE"]
+ n8["RECOVERY  /  EXPANSION  /  CHURN"]
+ n9["LEARNING"]
+ n0 --> n1
+ n1 --> n2
+ n2 --> n3
+ n3 --> n4
+ n4 --> n5
+ n5 --> n6
+ n6 --> n7
+ n7 --> n8
+ n8 --> n9
+ n0 -->|learning| n0
 
 stateDiagram-v2
-    [*] --> ONBOARDING
-    ONBOARDING --> ACTIVE
-    ACTIVE --> HEALTHY
-    HEALTHY --> WATCH
-    WATCH --> AT-RISK
-    AT-RISK --> INTERVENTION
-    INTERVENTION --> RECOVERING
-    RECOVERING --> EXPANDED
-    EXPANDED --> CHURNED
-    CHURNED --> [*]
+ [*] --> ONBOARDING
+ ONBOARDING --> ACTIVE
+ ACTIVE --> HEALTHY
+ HEALTHY --> WATCH
+ WATCH --> AT-RISK
+ AT-RISK --> INTERVENTION
+ INTERVENTION --> RECOVERING
+ RECOVERING --> EXPANDED
+ EXPANDED --> CHURNED
+ CHURNED --> [*]
 ```

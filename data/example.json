@@ -1,0 +1,46 @@
+{
+  "decision_object": {
+    "decision_id": "CS-2026-053",
+    "decision_name": "At-risk account login drop",
+    "owning_function": "Customer Success",
+    "decision_owner_role": "Customer Success Manager",
+    "trigger_condition": "Logins -70% over 30 days; champion left",
+    "current_state": "At-risk; new owner skeptical",
+    "required_inputs": [
+      "usage telemetry",
+      "champion departure",
+      "new-owner profile"
+    ],
+    "evidence_threshold": "New owner agrees to a success plan",
+    "available_options": [
+      "Exec sponsor outreach",
+      "Value-reset workshop",
+      "Discount to retain",
+      "Let churn"
+    ],
+    "decision_criteria": "Restore value before renewal (60 days)",
+    "constraints": "No unlimited discount",
+    "risk_level": "high",
+    "delegation_level": "Recommend",
+    "escalation_conditions": "New owner declines any meeting",
+    "expected_outcome": "New owner engages; value restored",
+    "verification_method": "Re-onboard stalled seats",
+    "actual_outcome": "New owner accepts; re-onboards 3 seats",
+    "learning_extracted": "Champion departure is #1 churn predictor",
+    "rule_version": "CS-RULE-006",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "At-risk account after champion departure",
+    "decision": "Intervene with value-reset",
+    "assumption": "New owner can be re-engaged",
+    "action": "Book value-reset with new owner",
+    "expected_result": "New owner agrees to success plan",
+    "actual_result": "Accepts; re-onboards 3 seats",
+    "variance": "Confirmed relationship + expectation gap",
+    "cause": "Champion departure broke continuity",
+    "learning": "Auto-flag champion departure for CS intervention within 48h",
+    "rule_update": "Auto-flag champion departure for CS intervention within 48h"
+  },
+  "orientation_required": true
+}

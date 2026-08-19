@@ -1,0 +1,83 @@
+{
+  "line": "Customer Success",
+  "key": "06-customer-success",
+  "number": "06",
+  "primary_question": "How do we retain and expand customer value?",
+  "purpose": "Ensure customers realize expected value, remain successful, and identify expansion opportunities.",
+  "sub_functions": [
+    "Onboarding",
+    "Customer Success",
+    "Account Management",
+    "Support",
+    "Implementation",
+    "Professional Services",
+    "Customer Experience",
+    "Voice of Customer"
+  ],
+  "roles": [
+    "Chief Customer Officer",
+    "VP Customer Success",
+    "Customer Success Director",
+    "Customer Success Manager",
+    "Account Manager",
+    "Support Director",
+    "Implementation Manager",
+    "CX Manager"
+  ],
+  "inputs": "Purchase motivation, usage, engagement, stakeholder changes, support history, commercial health.",
+  "outputs": "Customer health, interventions, renewals, expansions, feedback, advocacy.",
+  "learning_focus": "Churn signals; retention drivers; adoption patterns; expansion signals; recovery strategies.",
+  "line_prompt": "You are the customer intelligence system. Determine whether customers receive expected value and what intervention maximizes retention, expansion, and advocacy. Analyze purchase motivation, realized value, usage, engagement, stakeholder changes, support issues, commercial health, and churn risk. Learn which behaviors predict retention, churn, expansion, advocacy, and successful recovery.",
+  "operating_tree": [
+    "CUSTOMER ONBOARDING",
+    "EXPECTED VALUE",
+    "ACTUAL VALUE",
+    "HEALTH",
+    "RISK DETECTION",
+    "DIAGNOSIS",
+    "INTERVENTION",
+    "CUSTOMER RESPONSE",
+    "RECOVERY / EXPANSION / CHURN",
+    "LEARNING"
+  ],
+  "decision_states": [
+    "ONBOARDING",
+    "ACTIVE",
+    "HEALTHY",
+    "WATCH",
+    "AT-RISK",
+    "INTERVENTION",
+    "RECOVERING",
+    "EXPANDED",
+    "CHURNED"
+  ],
+  "critical_prompts": [
+    "Why did the customer buy?",
+    "What outcome did they expect?",
+    "Are they receiving that outcome?",
+    "What has changed?",
+    "What behavior indicates health?",
+    "What behavior indicates risk?",
+    "Who is the champion?",
+    "Who is disengaging?",
+    "What is the customer's current priority?",
+    "What problem are they actually experiencing?",
+    "Is this a product problem?",
+    "Service problem?",
+    "Expectation problem?",
+    "Relationship problem?",
+    "Customer-side problem?",
+    "What intervention has the highest probability of recovery?",
+    "What evidence proves recovery?",
+    "Is there an expansion opportunity?",
+    "What predicts future churn?"
+  ],
+  "decision_outputs": [
+    "Maintain",
+    "Intervene",
+    "Recover",
+    "Expand",
+    "Escalate",
+    "Churn"
+  ]
+}

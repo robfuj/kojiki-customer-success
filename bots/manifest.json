@@ -1,0 +1,120 @@
+{
+  "department": "06-customer-success",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 8,
+  "bots": [
+    {
+      "slug": "onboarding",
+      "sub_function": "Onboarding",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "customer-success",
+      "sub_function": "Customer Success",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "account-management",
+      "sub_function": "Account Management",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "support",
+      "sub_function": "Support",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "implementation",
+      "sub_function": "Implementation",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "professional-services",
+      "sub_function": "Professional Services",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "customer-experience",
+      "sub_function": "Customer Experience",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    },
+    {
+      "slug": "voice-of-customer",
+      "sub_function": "Voice of Customer",
+      "titles": [
+        "Chief Customer Officer",
+        "VP Customer Success",
+        "Customer Success Director",
+        "Customer Success Manager",
+        "Account Manager",
+        "Support Director",
+        "Implementation Manager",
+        "CX Manager"
+      ]
+    }
+  ]
+}

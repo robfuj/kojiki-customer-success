@@ -28,7 +28,7 @@
     "actual_outcome": "New owner accepts; re-onboards 3 seats",
     "learning_extracted": "Champion departure is #1 churn predictor",
     "rule_version": "CS-RULE-006",
-    "last_reviewed": "2026-08-18"
+    "last_reviewed": "2026-08-19"
   },
   "learning_ledger": {
     "case": "At-risk account after champion departure",
